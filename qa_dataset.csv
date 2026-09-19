@@ -1,0 +1,61 @@
+audio_file,question,answer,question_type,split
+audio_01.wav,What sounds are present?,"dog_bark, door",perceptual,train
+audio_01.wav,How many times does the dog bark?,3,counting,train
+audio_01.wav,What happens after the dog bark?,dog bark,temporal,train
+audio_01.wav,What happens before the door?,dog bark,temporal,train
+audio_01.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_02.wav,What sounds are present?,"bell, door",perceptual,train
+audio_02.wav,How many times does the bell ring?,2,counting,train
+audio_02.wav,What happens after the bell?,door,temporal,train
+audio_02.wav,What happens before the bell?,door,temporal,train
+audio_02.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_03.wav,What sounds are present?,clap,perceptual,train
+audio_03.wav,What happens after the clap?,clap,temporal,train
+audio_03.wav,What happens before the clap?,clap,temporal,train
+audio_03.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_04.wav,What sounds are present?,"beep, bell, door",perceptual,train
+audio_04.wav,How many times does the bell ring?,1,counting,train
+audio_04.wav,What happens after the beep?,bell,temporal,train
+audio_04.wav,What happens before the door?,bell,temporal,train
+audio_04.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_05.wav,What sounds are present?,"beep, door",perceptual,train
+audio_05.wav,What happens after the door?,door,temporal,train
+audio_05.wav,What happens before the beep?,door,temporal,train
+audio_05.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_06.wav,What sounds are present?,"bell, dog_bark",perceptual,train
+audio_06.wav,How many times does the dog bark?,1,counting,train
+audio_06.wav,How many times does the bell ring?,1,counting,train
+audio_06.wav,What happens after the dog bark?,bell,temporal,train
+audio_06.wav,What happens before the bell?,dog bark,temporal,train
+audio_06.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_07.wav,What sounds are present?,"beep, door",perceptual,train
+audio_07.wav,What happens after the beep?,beep,temporal,train
+audio_07.wav,What happens before the door?,beep,temporal,train
+audio_07.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_08.wav,What sounds are present?,"bell, clap, dog_bark",perceptual,train
+audio_08.wav,How many times does the dog bark?,1,counting,train
+audio_08.wav,How many times does the bell ring?,1,counting,train
+audio_08.wav,What happens after the clap?,dog bark,temporal,train
+audio_08.wav,What happens before the bell?,dog bark,temporal,train
+audio_08.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,train
+audio_09.wav,What sounds are present?,bell,perceptual,validation
+audio_09.wav,How many times does the bell ring?,3,counting,validation
+audio_09.wav,What happens after the bell?,bell,temporal,validation
+audio_09.wav,What happens before the bell?,bell,temporal,validation
+audio_09.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,validation
+audio_10.wav,What sounds are present?,"clap, dog_bark, door",perceptual,validation
+audio_10.wav,How many times does the dog bark?,1,counting,validation
+audio_10.wav,What happens after the dog bark?,door,temporal,validation
+audio_10.wav,What happens before the clap?,door,temporal,validation
+audio_10.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,validation
+audio_11.wav,What sounds are present?,"bell, dog_bark, door",perceptual,test
+audio_11.wav,How many times does the dog bark?,1,counting,test
+audio_11.wav,How many times does the bell ring?,1,counting,test
+audio_11.wav,What happens after the door?,bell,temporal,test
+audio_11.wav,What happens before the dog bark?,bell,temporal,test
+audio_11.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,test
+audio_12.wav,What sounds are present?,"bell, clap, door",perceptual,test
+audio_12.wav,How many times does the bell ring?,1,counting,test
+audio_12.wav,What happens after the clap?,clap,temporal,test
+audio_12.wav,What happens before the bell?,door,temporal,test
+audio_12.wav,Can the exact reason for these sounds be determined from the audio alone?,"No. The audio indicates which sounds occur, but not necessarily their exact cause.",reasoning,test
